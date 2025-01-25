@@ -72,17 +72,16 @@ $(document).ready(function(){
 
     function setWhatsAppLink(event) {
         event.preventDefault(); // Mencegah perilaku default tautan
-        const phoneNumber = "6282352734167";
-        const message = "Halo, saya ingin memesan gamat dengan ukuran botol 100ml. Terima kasih.";
+        const phoneNumber = "6285796966254";
+        const message = "Halo, saya ingin menanyakan terkait informasi gamat dengan ukuran botol 100ml. Terima kasih.";
         const waLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
         window.open(waLink, '_blank'); // Membuka URL WhatsApp di tab baru
     }
 
     function setWhatsAppLink2(event) {
         event.preventDefault(); // Mencegah perilaku default tautan
-        const phoneNumber = "6282352734167";
-        const message = "Halo, saya ingin memesan gamat dengan ukuran botol 60ml. Terima kasih.";
+        const phoneNumber = "6285796966254";
+        const message = "Halo, saya ingin menanyakan terkait informasi gamat dengan ukuran botol 60ml. Terima kasih.";
         const waLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
         window.open(waLink, '_blank'); // Membuka URL WhatsApp di tab baru
     }
-
